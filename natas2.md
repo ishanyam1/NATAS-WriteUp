@@ -1,5 +1,5 @@
 # NATAS_2 WriteUp
-:computer: Host: <http://natas1.natas.labs.overthewire.org/>  
+:computer: Host: http://natas1.natas.labs.overthewire.org/  
 :bust_in_silhouette: Usename: natas2  
 :lock: Password: h4ubbcXrWqsTo7GGnnUMLppXbOogfBZ7
 
