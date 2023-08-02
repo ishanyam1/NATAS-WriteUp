@@ -15,7 +15,7 @@ Password: tKOcJIbzM4lTs8hbCmzn5Zr4434fGZQm
 
 
 ## Прохождение
-Перехватим запрос в Burp Suite и попробуем подменить заголовок ``Referer``.  
+Перехватим запрос в Burp Suite и попробуем подменить заголовок ``Referer`` на предложенный веб-приложением (``http://natas5.natas.labs.overthewire.org/``).  
 В ответ веб-приложение отдаёт нам флаг:
 ![Код страницы](img/natas4/natas4_2.png)
 
