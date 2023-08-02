@@ -3,7 +3,7 @@ Host: <http://natas3.natas.labs.overthewire.org/>
 Usename: natas3  
 Password: G6ctbMJ5Nb4cbFwhpMPSvxGHhQ7I6W8Q
 
-Flag:triangular_flag_on_post: :  tKOcJIbzM4lTs8hbCmzn5Zr4434fGZQm
+:triangular_flag_on_post: Flag: tKOcJIbzM4lTs8hbCmzn5Zr4434fGZQm
 
 ## Обзор веб-приложения
 Веб-приложение выглядит следующим образом:
