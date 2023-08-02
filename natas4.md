@@ -17,6 +17,6 @@
 ## Прохождение
 Перехватим запрос в Burp Suite и попробуем подменить заголовок ``Referer`` на предложенный веб-приложением (``http://natas5.natas.labs.overthewire.org/``).  
 В ответ веб-приложение отдаёт нам флаг:
-![Код страницы](img/natas4/natas4_2.png)
+![Получение флага](img/natas4/natas4_2.png)
 
 Полученный флаг: Z0NsrtIkJoKALBCLi5eqFfcRN82Au2oD

@@ -24,5 +24,4 @@
 А в файле ``users.txt`` видим флаг
 ![Файл users.txt](img/natas3/natas3_4.png)
 
-
 Полученный флаг: tKOcJIbzM4lTs8hbCmzn5Zr4434fGZQm
