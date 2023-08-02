@@ -1,7 +1,7 @@
 # NATAS_2 WriteUp
-Host: <http://natas1.natas.labs.overthewire.org/>  
-Usename: natas2  
-Password: h4ubbcXrWqsTo7GGnnUMLppXbOogfBZ7
+:computer: Host: <http://natas1.natas.labs.overthewire.org/>  
+:bust_in_silhouette: Usename: natas2  
+:lock: Password: h4ubbcXrWqsTo7GGnnUMLppXbOogfBZ7
 
 :triangular_flag_on_post: Flag: G6ctbMJ5Nb4cbFwhpMPSvxGHhQ7I6W8Q 
 
