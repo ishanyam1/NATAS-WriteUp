@@ -1,4 +1,4 @@
-# NATAS_1 WriteUp
+# NATAS_2 WriteUp
 Host: <http://natas1.natas.labs.overthewire.org/>  
 Usename: natas2  
 Password: h4ubbcXrWqsTo7GGnnUMLppXbOogfBZ7
@@ -15,8 +15,8 @@ Password: h4ubbcXrWqsTo7GGnnUMLppXbOogfBZ7
 В HTML коде страницы содержится ссылка на какой-то файл... Стоит проверить этот путь.
 ![Код страницы](img/natas2/natas2_1.png)
 
-В директории содержится так же файл с искомым флагом.
-![Код страницы](img/natas2/natas2_2.png)
-![Код страницы](img/natas2/natas2_3.png)
+В директории ``/files/`` содержится так же файл с искомым флагом.
+![Содержимое директории /files/](img/natas2/natas2_2.png)
+![Файл users.txt](img/natas2/natas2_3.png)
 
 Полученный флаг: G6ctbMJ5Nb4cbFwhpMPSvxGHhQ7I6W8Q
