@@ -18,7 +18,24 @@
 ![Скриншот веб-приложения](./img/natas10/natas10_1.png)
 
 Кнопка <kbd>**View sourcecode**</kbd> позволяет просмотреть исходный код страницы
-![Скриншот исходного кода](./img/natas10/natas10_2.png)
+```php
+// HTML Code ...
+<?
+$key = "";
+if(array_key_exists("needle", $_REQUEST)) {
+    $key = $_REQUEST["needle"];
+}
+
+if($key != "") {
+    if(preg_match('/[;|&]/',$key)) {
+        print "Input contains an illegal character!";
+    } else {
+        passthru("grep -i $key dictionary.txt");
+    }
+}
+?>
+// HTML Code ...
+```
 
 ## Решение
 <a name="Решение"></a>

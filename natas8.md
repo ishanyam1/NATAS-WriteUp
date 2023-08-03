@@ -18,8 +18,25 @@
 ![Скриншот веб-приложения](./img/natas8/natas8_1.png)
 
 Кнопка <kbd>**View sourcecode**</kbd> позволяет просмотреть исходный код страницы
-![Скриншот исходного кода](./img/natas8/natas8_2.png)
+```php
+// HTML Code ...
+<?
+$encodedSecret = "3d3d516343746d4d6d6c315669563362";
 
+function encodeSecret($secret) {
+    return bin2hex(strrev(base64_encode($secret)));
+}
+
+if(array_key_exists("submit", $_POST)) {
+    if(encodeSecret($_POST['secret']) == $encodedSecret) {
+    print "Access granted. The password for natas9 is <censored>";
+    } else {
+    print "Wrong secret";
+    }
+}
+?>
+// HTML Code ...
+```
 ## Решение
 <a name="Решение"></a>
 В коде элемента видим зашифрованную секретную строку и алгоритм, по которому секрет был зашифрован

@@ -18,13 +18,28 @@
 ![Скриншот веб-приложения](./img/natas6/natas6_1.png)
 
 Кнопка <kbd>**View sourcecode**</kbd> позволяет просмотреть исходный код страницы
-![Скриншот исходного кода](./img/natas6/natas6_2.png)
+```php
+// HTML Code ...
+<?
+include "includes/secret.inc";
+    if(array_key_exists("submit", $_POST)) {
+        if($secret == $_POST['secret']) {
+        print "Access granted. The password for natas7 is <censored>";
+    } else {
+        print "Wrong secret";
+    }
+    }
+?>
+// HTML Code ...
+```
 
 
 ## Решение
 <a name="Решение"></a>
 В исходном коде мы видим директиву ``include``, которая подключает какой-то ``secret.inc``
-![Директива include](img/natas6/natas6_3.png)
+```php
+include "includes/secret.inc";
+```
 
 Проверим этот файл и получим в ответ секретное слово - ``FOEIUWGHFEEUHOFUOIU``
 ![Секретное слово](img/natas6/natas6_4.png)  

