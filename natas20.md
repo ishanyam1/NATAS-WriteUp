@@ -156,7 +156,7 @@ foreach(explode("\n", $data) as $line) {
 }
 ```
 
-Является ли пользователь администратором определяется по наличию в файле сессии строчки **"admin 1"**
+Определение администратора происходит через проверку наличия в файле сессии строчки **"admin 1"**
 ```php
 function print_credentials() { /* {{{ */
     if($_SESSION and array_key_exists("admin", $_SESSION) and $_SESSION["admin"] == 1) {
