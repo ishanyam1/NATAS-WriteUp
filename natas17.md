@@ -1,5 +1,5 @@
 # NATAS_17 WriteUp
-:computer: Host: http://natas16.natas.labs.overthewire.org/  
+:computer: Host: http://natas17.natas.labs.overthewire.org/  
 :bust_in_silhouette: Usename: natas17  
 :key: Password: XkEuChE0SbnKBvH1RU7ksIb9uuLmI7sd
 
@@ -65,7 +65,7 @@ if(mysqli_num_rows($res) > 0) {
     } else {
         //echo "This user doesn't exist.<br>";
     }
-    } else {
+    else {
         //echo "Error in query.<br>";
     }
 ```
