@@ -5,7 +5,12 @@
 
 :triangular_flag_on_post: Flag: lW3jYRI02ZKDBb8VtQBU1f6eDRo6WEj9
 
+- [NATAS\_12 WriteUp](#natas_12-writeup)
+  - [Обзор веб-приложения](#обзор-веб-приложения)
+  - [Решение](#решение)
+
 ## Обзор веб-приложения
+<a name="Обзор_веб-приложения"></a> 
 Веб-приложение выглядит следующим образом
 ![Скриншот веб-приложения](./img/natas12/natas12_0.png)
 
@@ -67,7 +72,8 @@ Choose a JPEG to upload (max 1KB):<br/>
 ```
 
 ## Решение
-
+<a name="Решение"></a>
+В данной лабораторной требуется проэксплуатировать уязвимость **File Upload**  
 Мы видим, что расширение загружаемого файла берётся из отправляемого пользователем POST параметра **filename**
 ```php
 if(array_key_exists("filename", $_POST)) {
@@ -87,6 +93,6 @@ function makeRandomPathFromFilename($dir, $fn) {
 
 Перейдём по указанному url и получим доступ к исполнению команд на сервере  
 Следующий шаг - получить флаг
-![Загрузка веб-шелла](./img/natas12/natas12_3.png)
+![Получение флага](./img/natas12/natas12_3.png)
 
 Полученный флаг: !!lW3jYRI02ZKDBb8VtQBU1f6eDRo6WEj9!!
