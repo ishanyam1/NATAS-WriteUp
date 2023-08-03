@@ -3,7 +3,7 @@
 :bust_in_silhouette: Usename: natas18  
 :key: Password: 8NEDUUxg8kFgPV84uLwvZkGn6okJQ6aq
 
-:triangular_flag_on_post: Flag: 
+:triangular_flag_on_post: Flag: 8LMJEhKFbMKIL2mxQKjv0aEDdk7zpT0s
  
 - [NATAS\_18 WriteUp](#natas_18-writeup)
   - [Обзор веб-приложения](#обзор-веб-приложения)
@@ -105,6 +105,11 @@ Password: <input name="password"><br>
 
 ## Решение
 <a name="Решение"></a>
+Веб-приложение после попытки логина отдаёт мне куку с идентификатором сессии  
+![Скриншот веб-приложения](./img/natas18/natas18_2.png)
 
+Кука представляет из себя числовое значение, и первое что стоит сделать - перебрать различные значения  
+![Скриншот веб-приложения](./img/natas18/natas18_4.png)
+Флаг достался сам собой :satisfied:
 
-Полученный флаг: 
+Полученный флаг: 8LMJEhKFbMKIL2mxQKjv0aEDdk7zpT0s
