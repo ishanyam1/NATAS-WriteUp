@@ -14,7 +14,7 @@
 
 Кнопка <kbd>**View sourcecode**</kbd> позволяет просмотреть исходный код страницы
 ```php
-// HTML code
+// HTML code ...
 <?
 $defaultdata = array( "showpassword"=>"no", "bgcolor"=>"#ffffff");
 
@@ -58,13 +58,13 @@ if(array_key_exists("bgcolor",$_REQUEST)) {
 }
 saveData($data);
 ?>
-// HTML code
+// HTML code ...
 <?
 if($data["showpassword"] == "yes") {
     print "The password for natas12 is <censored><br>";
 }
 ?>
-// HTML code
+// HTML code ...
 ```
 
 ## Решение
