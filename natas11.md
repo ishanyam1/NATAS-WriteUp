@@ -1,7 +1,7 @@
 # NATAS_11 WriteUp
 :computer: Host: http://natas11.natas.labs.overthewire.org/  
 :bust_in_silhouette: Usename: natas11  
-:lock: Password: 1KFqoJXi6hRaPluAmk8ESDW4fSysRoIg
+:key: Password: 1KFqoJXi6hRaPluAmk8ESDW4fSysRoIg
 
 :triangular_flag_on_post: Flag: YWqo0pjpcXzSIl5NMAVxg12QxeC1w9QG
 
