@@ -40,7 +40,13 @@ if(array_key_exists("submit", $_POST)) {
 ## Решение
 <a name="Решение"></a>
 В коде элемента видим зашифрованную секретную строку и алгоритм, по которому секрет был зашифрован
-![Алгоритм шифрования](img/natas8/natas8_3.png)
+```php
+$encodedSecret = "3d3d516343746d4d6d6c315669563362";
+
+function encodeSecret($secret) {
+    return bin2hex(strrev(base64_encode($secret)));
+}
+```
 
 Проведём обратное преобразование и получим секретную строку - ``oubWYf2kBq``
 ![Получение секретной строки](img/natas8/natas8_4.png)
